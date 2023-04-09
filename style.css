@@ -3,7 +3,7 @@
   src: url('font/CookieRun Black.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'マメロン 5 Hi Regular';
+  font-family: 'Mamelon-5-Hi-Regular';
   src: url('font/Mamelon-5-Hi-Regular.woff2') format('woff2');
 }
 body{
@@ -79,7 +79,7 @@ body{
 }
 .Topic-Asuka{
     float: left;
-    font-family: "マメロン 5 Hi Regular";
+    font-family: "Mamelon-5-Hi-Regular";
     position:absolute;
     display: flex;
     left: 10%;
