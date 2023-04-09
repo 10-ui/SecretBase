@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'CookieRun Black';
-  src: url('CookieRun-Black.woff') format('woff');
+  src: url('CookieRun-Black.woff2') format('woff2');
 }
 body{
     background-color: rgb(247, 245, 238);
