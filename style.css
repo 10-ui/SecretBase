@@ -11,7 +11,7 @@ body{
 }
 .header{
     background-color:whitesmoke;
-    border-bottom: px solid #d1dce5;
+    border-bottom: 1px solid #d1dce5;
     position: fixed;
     top: 0;
     left: 0;
