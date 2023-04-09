@@ -11,22 +11,17 @@ body{
 }
 .header{
     background-color:whitesmoke;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100px;
     margin: auto;
-    position: sticky;
-    top: 0;
-    padding: 0.5rem 1rem;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #d1dce5;
-    z-index: 999;
+    padding: 10px;
 
 }
-.Lr{
-    right:20px
+.Top{
+    margin-top: 100px;
 }
 .Sbico{
     width: 80px;
