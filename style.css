@@ -1,7 +1,7 @@
 body{
     background-color: rgb(247, 245, 238);
 }
-.Header{
+.header{
     background-color:whitesmoke;
     height: 100px;
     width: 80%;
@@ -9,51 +9,51 @@ body{
     position: relative;
 
 }
-.Secretbase-pic{
+.Sbico{
     width: 80px;
     height: 80px;
     float: left;
     padding: 10px;
     padding-left: 30px;
 }
-.Header-list li{
+.Hl li{
     font-family: "CookieRun Black";
     font-size: 20px;
     list-style: none;
     float: left;
 }
-.Site-Title{
+.St{
     padding: 35px;
     margin-right: auto;
 
 }
-.Left-list{
+.Lr{
     position: absolute;
     right: 0;
 }
-.About-click{
+.About{
     padding: 35px;
 
 }
-.About-page{
+.Ap{
     color: black;
 }
-.connect{
+.Cc{
     padding: 25px;
 
 }
-.Photo{
+.Top{
     position: relative;
     width:80%;
     text-align:center;
     margin: auto;
 }
-.Photo-img{
+.Ti{
     width:100%;
     padding-top: 5%;
     filter: blur(3px);
 }
-.Title-comment{
+.Tc{
     font-family: "CookieRun Black";
     font-size: 350%;
     text-align:center;
@@ -63,13 +63,13 @@ body{
     transform: translate(-50%, -50%);
 
 }
-.About-describe{
+.Dc{
     font-family: "CookieRun Black";
     text-align:center;
     padding: 50px;
     position: relative;
 }
-.Asuka-topic{
+.Topic-Asuka{
     float: left;
     font-family: "マメロン 5 Hi Regular";
     position:absolute;
@@ -77,11 +77,11 @@ body{
     left: 10%;
     max-width: 750px;
 }
-.Asuka-pic{
+.Picture{
     width: 100%;
     height: 100%;
 }
-.Asuka-name{
+.Name{
     width: 100%;
     margin: 20px;
 }
