@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'CookieRunBlack';
+  src: url('font/CookieRun Black.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Mamelon5';
+  src: url('font/Mamelon-5-Hi-Regular.woff2') format('woff2');
+}
+body{
+  background-color: tan;
+}
+.header{
+  border-bottom: 3px solid #665744;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 7px;
+  z-index: 999;
+  margin: 0 auto;
+}
+.logo{
+  height: 100px;
+  float: left;
+}
+.nav{
+  font-family: "CookieRunBlack";
+  font-size: 2rem;
+  -webkit-text-stroke: 2px #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav li{
+  list-style: none;
+}
+.nav_item{
+  text-decoration: none;
+  -webkit-text-stroke: 2px #ffffff;
+  color:inherit;
+  position: relative;
+  display: inline-block;
+  transition: .3s;
+}
+
+.nav_item::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #665744;
+  transition: .3s;
+  transform: translateX(-50%);
+}
+
+.nav_item:hover::after{
+  width: 100%;
+}
