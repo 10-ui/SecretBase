@@ -23,6 +23,25 @@ header{
   height: 90px;
   float: left;
 }
+@media screen and (max-width: 440px){
+  .nav_item{
+    display: none !important;
+  }
+  .logo{
+    width: 185px;
+    height: 43px;
+  }
+  header{
+    height: 60px;
+  }
+  .main_pic{
+    margin: 70px auto !important;
+  }
+  .slider-3 .slick-slide .slide-img {
+    width: 400px !important;
+    height: 215px !important;
+  }
+}
 li+li{
   margin-left: 50px;
 }
